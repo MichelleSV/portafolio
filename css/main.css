@@ -1,0 +1,125 @@
+/* Tu CSS va aqui */
+section .container-fluid{
+	padding: 0 !important;
+}
+/*header*/
+.navbar-brand:hover{
+	color: #A44200 !important;
+}
+.navbar-brand{
+	color: #F05F40 !important;
+}
+li a:hover{
+	color: #F05F40 !important;
+}
+/*section 1: fondo img*/
+.fondo-rocas{
+	background-size: 100% 650px;
+	width: 100%;
+	height: 650px;
+	background-image: url(../img/header.jpg);
+	color: white;
+	padding: 18% 0 0 0;
+}
+.fondo-rocas h1{
+	color: white;
+	font-size: 50px;
+}
+hr{
+	border: 1px solid #F05F40;
+	width: 40px;
+}
+.fondo-rocas p{
+	font-size: 15px;
+}
+.btn-primary{
+	color: #fff;
+	background-color: #F05F40;
+	border-color: #F05F40;
+}
+.btn-primary:hover {
+	color: #fff;
+	background-color: #A44200;
+	border-color: #A44200;
+}
+/*section 2: sobre mi*/
+.sobre-mi{
+	background-color: #F05F40;
+	color: white;
+}
+.sobre-mi h3{
+	padding-top:3%;
+	margin-top: 0; 
+}
+.sobre-mi hr{
+	border: 1px solid white;
+}
+.sobre-mi p{
+	padding:0 26% 3% 26%;
+	margin-bottom: 0;
+}
+
+/*section 3: servicios*/
+.servicios div div i{
+	color: #F05F40;
+	font-size: 30px;
+}
+.servicios{
+	padding: 3% 0 0 0;
+}
+.col-md-3{
+	padding-bottom: 5%;
+}
+/*section 4: imgs*/
+.txt-img{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	text-decoration: none;
+}
+.overlay:hover .txt-img{
+	opacity:0.9;
+	color:#fff;
+	font-size:20px;
+	font-weight:700;
+	background-color:#F05F40 ;
+}
+.overlay{
+	position: relative;
+}
+.txt-img{
+	width: 107%;
+	min-height:100%;
+	opacity:0;
+	position: absolute;
+	top: 0;	
+}
+.txt-img p{
+	margin-top: 30%;
+}
+/*section 5:github*/
+.github{
+	background-color: #222222;
+	color: white;
+	padding: 4% 0;
+	font-size: 25px;
+}
+.github a{
+	background-color: white;
+	color: #222222;
+	font-size: 10px;
+	padding: 10px;
+	border-radius: 25px;
+}
+/*section 6:footer-contactanos*/
+footer{
+	padding: 5% 0 10% 0;
+}
+footer div i{
+	font-size: 25px;
+}
+footer div a{
+	text-decoration: none;
+	color: #F05F40
+}
